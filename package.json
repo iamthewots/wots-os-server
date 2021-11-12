@@ -1,0 +1,29 @@
+{
+  "name": "wots-os-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamthewots/wots-os-server.git"
+  },
+  "author": "Leonardo Scarfò",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamthewots/wots-os-server/issues"
+  },
+  "homepage": "https://github.com/iamthewots/wots-os-server#readme",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6"
+  }
+}
