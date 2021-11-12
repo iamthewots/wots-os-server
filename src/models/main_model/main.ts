@@ -1,4 +1,4 @@
-import { mongoClient } from "../../server";
+import { mongoClient } from "../../server.js";
 
 export default abstract class Model {
   static db: string;

@@ -1,5 +1,11 @@
 declare namespace Express {
   export interface Request {
-    parsedReq?: { [prop: string]: any[] };
+    parsedReq?: {
+      limit?: number;
+      projection?: string;
+      fields: {
+        [prop: string]: any[];
+      };
+    };
   }
 }
